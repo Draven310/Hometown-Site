@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+    color: #ffffff;
+}
+
+#header {
+    background-image: url('/Halifax-harbour-aerial.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    color: #ffffff;
+    text-shadow: 3px 3px #11151C;
+}
+
+#title {
+    font-family: gupter-bold;
+    margin-top: 68px;
+    font-size: 40px;
+}
+
+#sub-title {
+    font-family: gupter-regular;
+    font-size: 25px;
+}
+
+#activity-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 100px;
+  background-color: #466362;
+}
+
+.activity {
+  font-family: gupter-regular;
+}
+
+.activity-img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+#tour-guide {
+  background-color: #466362;
+  padding-bottom: 40px;
+}
+
+.avatar {
+  width: 150px;
+  border: 6px solid #11151C;
+}
+
+.card-text {
+  padding-left: 20px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #364156;
+    color: #ffffff;
+    border-bottom: 6px solid #11151C;
+    font-family: gupter-regular;
+}
+
+#footer {
+  font-family: gupter-regular;
+  color: #ffffff;
+  background-color: #364156;
+  padding: 5px;
+}
+
+.link {
+  color: #ffffff;
+}
+
+.link:hover {
+  color: aqua;
+}
+
+.gupter-regular {
+  font-family: "Gupter", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gupter-medium {
+  font-family: "Gupter", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.gupter-bold {
+  font-family: "Gupter", serif;
+  font-weight: 700;
+  font-style: normal;
+}
